@@ -2,18 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Company.Graphics.ImageHistogram
 {
-    public class Histogram
+    public struct Histogram
     {
-        public static Histogram(int width, int height)
-        {
-
-        }
-
-
-
+        public int[] Levels;
+        public int Maximum;
+        public int Minimum;
     }
 }
