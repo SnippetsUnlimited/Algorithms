@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Company.Math.Algorithms.HuffmanTree")]
+[assembly: AssemblyTitle("Company.Algorithms.Compression.HuffmanTree")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Company.Math.Algorithms.HuffmanTree")]
+[assembly: AssemblyProduct("Company.Algorithms.Compression.HuffmanTree")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

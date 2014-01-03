@@ -1,4 +1,4 @@
-﻿using Company.Math.Algorithms.HuffmanTree;
+﻿using Company.Algorithms.Compression.HuffmanTree;
 using System;
 using System.Collections;
 using System.Collections.Generic;

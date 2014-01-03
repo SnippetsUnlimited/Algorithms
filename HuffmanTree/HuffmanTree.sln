@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Math.Algorithms.HuffmanTree", "Company.Math.Algorithms.HuffmanTree\Company.Math.Algorithms.HuffmanTree.csproj", "{78AAE118-BE0B-41CC-94A4-68875C7F83CF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication", "TestConsoleApplication\TestConsoleApplication.csproj", "{909DCB00-4AE4-4D50-9B2D-466EDEE1E29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Algorithms.Compression.HuffmanTree", "Company.Algorithms.Compression.HuffmanTree\Company.Algorithms.Compression.HuffmanTree.csproj", "{78AAE118-BE0B-41CC-94A4-68875C7F83CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78AAE118-BE0B-41CC-94A4-68875C7F83CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78AAE118-BE0B-41CC-94A4-68875C7F83CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78AAE118-BE0B-41CC-94A4-68875C7F83CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78AAE118-BE0B-41CC-94A4-68875C7F83CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{909DCB00-4AE4-4D50-9B2D-466EDEE1E29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{909DCB00-4AE4-4D50-9B2D-466EDEE1E29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{909DCB00-4AE4-4D50-9B2D-466EDEE1E29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{909DCB00-4AE4-4D50-9B2D-466EDEE1E29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AAE118-BE0B-41CC-94A4-68875C7F83CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AAE118-BE0B-41CC-94A4-68875C7F83CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AAE118-BE0B-41CC-94A4-68875C7F83CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AAE118-BE0B-41CC-94A4-68875C7F83CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

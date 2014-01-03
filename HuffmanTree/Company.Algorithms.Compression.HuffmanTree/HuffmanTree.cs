@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Company.Math.Algorithms.HuffmanTree
+namespace Company.Algorithms.Compression.HuffmanTree
 {
     public class HuffmanTree : HuffmanNode
     {
