@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Math.Algorithms.BurrowsWheelerTransform", "Company.Math.Algorithms.BurrowsWheelerTransform\Company.Math.Algorithms.BurrowsWheelerTransform.csproj", "{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication", "TestConsoleApplication\TestConsoleApplication.csproj", "{48F8F957-1342-4B19-AAE0-8869A0E1EC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Algorithms.Compression.BurrowsWheelerTransform", "Company.Algorithms.Compression.BurrowsWheelerTransform\Company.Algorithms.Compression.BurrowsWheelerTransform.csproj", "{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48F8F957-1342-4B19-AAE0-8869A0E1EC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{48F8F957-1342-4B19-AAE0-8869A0E1EC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48F8F957-1342-4B19-AAE0-8869A0E1EC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48F8F957-1342-4B19-AAE0-8869A0E1EC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33C3DA4-D100-4697-A36A-EA4D0E7737FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

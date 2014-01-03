@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Company.Math.Algorithms.BurrowsWheelerTransform
+namespace Company.Algorithms.Compression.BurrowsWheelerTransform
 {
     public class BurrowsWheelerTransformer
     {

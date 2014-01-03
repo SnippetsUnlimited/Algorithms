@@ -78,9 +78,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Company.Math.Algorithms.BurrowsWheelerTransform\Company.Math.Algorithms.BurrowsWheelerTransform.csproj">
+    <ProjectReference Include="..\Company.Algorithms.Compression.BurrowsWheelerTransform\Company.Algorithms.Compression.BurrowsWheelerTransform.csproj">
       <Project>{f33c3da4-d100-4697-a36a-ea4d0e7737fa}</Project>
-      <Name>Company.Math.Algorithms.BurrowsWheelerTransform</Name>
+      <Name>Company.Algorithms.Compression.BurrowsWheelerTransform</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

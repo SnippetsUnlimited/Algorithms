@@ -24,12 +24,12 @@ namespace TestConsoleApplication
 
         private void btnTransform_Click(object sender, EventArgs e)
         {
-            txtTransform.Text = Company.Math.Algorithms.BurrowsWheelerTransform.BurrowsWheelerTransformer.Transform(txtInverse.Text);
+            txtTransform.Text = Company.Algorithms.Compression.BurrowsWheelerTransform.BurrowsWheelerTransformer.Transform(txtInverse.Text);
         }
 
         private void btnInverse_Click(object sender, EventArgs e)
         {
-            txtInverse.Text = Company.Math.Algorithms.BurrowsWheelerTransform.BurrowsWheelerTransformer.Inverse(txtTransform.Text);
+            txtInverse.Text = Company.Algorithms.Compression.BurrowsWheelerTransform.BurrowsWheelerTransformer.Inverse(txtTransform.Text);
         }
 
     }
