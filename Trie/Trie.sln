@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Algorithms.Text.Trie", "Company.Algorithms.Text.Trie\Company.Algorithms.Text.Trie.csproj", "{93F9E677-DC7E-4BA6-9D8E-129ABBDEF97E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication", "TestConsoleApplication\TestConsoleApplication.csproj", "{029AF637-E773-48EC-815D-9A8A610D5E7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{93F9E677-DC7E-4BA6-9D8E-129ABBDEF97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93F9E677-DC7E-4BA6-9D8E-129ABBDEF97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93F9E677-DC7E-4BA6-9D8E-129ABBDEF97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029AF637-E773-48EC-815D-9A8A610D5E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029AF637-E773-48EC-815D-9A8A610D5E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029AF637-E773-48EC-815D-9A8A610D5E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029AF637-E773-48EC-815D-9A8A610D5E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
