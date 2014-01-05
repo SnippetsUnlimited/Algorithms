@@ -18,7 +18,7 @@ namespace Company.Graphics.ImageHistogram
 
         public Histogram GenerateHistogram(int[] data, int size)
         {
-            Histogram hist;
+            Histogram hist = new Histogram();
             hist.Maximum = 0;
             hist.Minimum = int.MaxValue;
 
@@ -26,7 +26,7 @@ namespace Company.Graphics.ImageHistogram
             
             for (int x = 0, index = 0; x < data.Length; x++)
             {
-                decimal normalizedValue = Normalizer.Normalize(data[x]);
+                float normalizedValue = Normalizer.Normalize(data[x]);
                 index = Convert.ToInt32(Math.Round(normalizedValue * size, 0));
                 levels[index]++;
 

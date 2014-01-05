@@ -9,18 +9,18 @@ namespace Company.Graphics.ImageHistogram
     public class LuminosityNormalizer : INormalizer
     {
 
-        public decimal Normalize(int value)
+        public float Normalize(int value)
         {
-            decimal R = ((value >> 16) & 0xFF)/ 255m;
-            decimal G = ((value >> 8) & 0xFF)/ 255m;
-            decimal B = ((value >> 0) & 0xFF)/ 255m;
+            float R = ((value >> 16) & 0xFF) / 255f;
+            float G = ((value >> 8) & 0xFF) / 255f;
+            float B = ((value >> 0) & 0xFF) / 255f;
 
             // Return normalized value of Lumonisity of HSL
             return (
-                0.5m *
+                0.5f *
                 (
-                    (R > G ? (R > B ? R : B) : (G > B ? G : B)) +
-                    (R < G ? (R < B ? R : B) : (G < B ? G : B))
+                (R > G ? (R > B ? R : B) : (G > B ? G : B)) +
+                (R < G ? (R < B ? R : B) : (G < B ? G : B))
                 ));
 
         }

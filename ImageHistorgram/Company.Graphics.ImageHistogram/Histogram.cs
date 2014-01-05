@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Company.Graphics.ImageHistogram
 {
-    public struct Histogram
+    public class Histogram
     {
         public int[] Levels;
         public int Maximum;

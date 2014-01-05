@@ -8,6 +8,6 @@ namespace Company.Graphics.ImageHistogram
 {
     public interface INormalizer
     {
-        decimal Normalize(int value);
+        float Normalize(int value);
     }
 }
