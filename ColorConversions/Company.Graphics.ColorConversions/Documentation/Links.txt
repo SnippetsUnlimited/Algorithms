@@ -1,0 +1,9 @@
+﻿HSL-RGB
+-------------------------------------------
+http://www.cse.usf.edu/~mshreve/rgb-to-hsi.pdf
+http://stackoverflow.com/questions/15463668/rgb-to-hsi-and-hsi-to-rgb-conversion
+http://www.had2know.com/technology/hsi-rgb-color-converter-equations.html
+
+Histogram
+-------------------------------------------
+RE: http://users.utcluj.ro/~rdanescu/PI-L3e.pdf
