@@ -235,7 +235,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(630, 236);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "RGB-HSL";
+            this.tabPage1.Text = "RGB-HSI";
             // 
             // tabPage2
             // 
@@ -419,7 +419,7 @@
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(630, 236);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "GRB-HSL";
+            this.tabPage4.Text = "RGB-HSL";
             // 
             // hsHSLLuminosity
             // 

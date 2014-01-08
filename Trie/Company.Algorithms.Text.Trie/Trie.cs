@@ -14,12 +14,7 @@ namespace Company.Algorithms.Text.Trie
     public class Trie
     {
 
-        private TrieNode root = null;
-
-        public void Reset()
-        {
-            root = null;
-        }
+        private TrieNode root = new TrieNode();
 
         public void AddWord(string word)
         {
@@ -28,16 +23,21 @@ namespace Company.Algorithms.Text.Trie
                 root = new TrieNode();
             }
 
+
             var node = root;
 
             for (int x = 0; x < word.Length; x++)
             {
                 if (!node.ContainsKey(word[x]))
                 {
-                    TrieNode child = new TrieNode();
+                    var child = new TrieNode();
                     node.Add(word[x], child);
+                    node = child;
                 }
-                node = node[word[x]];
+                else
+                {
+                    node = node[word[x]];
+                }
             }
 
             if (node.Word == null)
@@ -46,37 +46,40 @@ namespace Company.Algorithms.Text.Trie
             }
         }
 
+        public void Reset()
+        {
+            root = null;
+        }
+
         public List<string> GetMatches(string word)
         {
             List<string> result = new List<string>();
 
-            if (!string.IsNullOrEmpty(word) && root != null)
+            var node = root;
+
+            for (int x = 0; x < word.Length; x++)
             {
-                var node = root;
-
-                for (int x = 0; x < word.Length; x++)
+                if (node.ContainsKey(word[x]))
                 {
-                    if (node.ContainsKey(word[x]))
-                    {
-                        node = node[word[x]];
-                    }
-                    else
-                    {
-                        node = null;
-                        break;
-                    }
+                    node = node[word[x]];
                 }
-
-                if (node != null)
+                else
                 {
-                    GetMatchesRecursive(node, result);
+                    node = null;
+                    break;
                 }
+            }
+
+            if (node != null)
+            {
+                result.Add(node.Word);
+                GetMatchesRecursive(node, result);
             }
 
             return result;
         }
 
-        private void GetMatchesRecursive(TrieNode node, List<string> result)
+        public void GetMatchesRecursive(TrieNode node, List<string> result)
         {
             foreach (var item in node.Values)
             {
@@ -90,4 +93,5 @@ namespace Company.Algorithms.Text.Trie
         }
 
     }
+
 }

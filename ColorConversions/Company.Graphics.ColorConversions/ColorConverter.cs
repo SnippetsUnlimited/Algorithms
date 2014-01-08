@@ -9,12 +9,12 @@ namespace Company.Graphics.ColorConversions
     {
         public static RGBColor ToRGB(HSVColor color)
         {
-            return null;
+            return ColorConverterHelper.HSVToRGB(color);
         }
 
         public static RGBColor ToRGB(HSLColor color)
         {
-            return null;
+            return ColorConverterHelper.HSLToRGB(color);
         }
 
         public static RGBColor ToRGB(HSIColor color)
@@ -37,11 +37,15 @@ namespace Company.Graphics.ColorConversions
             return ColorConverterHelper.RGBToHSI(color);
         }
 
-        public static HSIColor ToHSV(RGBColor color)
+        public static HSVColor ToHSV(RGBColor color)
         {
             return ColorConverterHelper.RGBToHSV(color);
         }
 
+        public static HSLColor ToHSL(RGBColor color)
+        {
+            return ColorConverterHelper.RGBToHSL(color);
+        }
 
     }
 }

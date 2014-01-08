@@ -13,9 +13,10 @@ namespace TestConsoleApplication
     public partial class frmConsole : Form
     {
         private bool disableRGBEvents = false;
-        private bool disableHSLEvents = false;
+        private bool disableHSIEvents = false;
         private bool disableCMYKEvents = false;
         private bool disableHSVEvents = false;
+        private bool disableHSLEvents = false;
 
 
         public frmConsole()
@@ -32,7 +33,7 @@ namespace TestConsoleApplication
         {
             if (!disableRGBEvents)
             {
-                disableHSLEvents = true;
+                disableHSIEvents = true;
                 disableCMYKEvents = true;
                 disableHSVEvents = true;
                 disableHSLEvents = true;
@@ -58,18 +59,28 @@ namespace TestConsoleApplication
                 hsCMYKYellow.Value = (int)(255 * cmyk.Yellow);
                 hsCMYKBlack.Value = (int)(255 * cmyk.Black);
 
-                
+                HSVColor hsv = Company.Graphics.ColorConversions.ColorConverter.ToHSV(rgb);
+
+                hsHSVHue.Value = (int)(360 * hsv.Hue);
+                hsHSVSaturation.Value = (int)(100 * hsv.Saturation);
+                hsHSVValue.Value = (int)(100 * hsv.Value);
+
+                HSLColor hsl = Company.Graphics.ColorConversions.ColorConverter.ToHSL(rgb);
+
+                hsHSLHue.Value = (int)(360 * hsl.Hue);
+                hsHSLSaturation.Value = (int)(100 * hsl.Saturation);
+                hsHSLLuminosity.Value = (int)(100 * hsl.Luminosity);
 
                 disableHSLEvents = false;
-                disableCMYKEvents = false;
                 disableHSVEvents = false;
-                disableHSLEvents = false;
+                disableCMYKEvents = false;
+                disableHSIEvents = false;
             }
         }
 
         private void hsHSI_ValueChanged(object sender, EventArgs e)
         {
-            if (!disableHSLEvents)
+            if (!disableHSIEvents)
             {
                 disableRGBEvents = true;
 
